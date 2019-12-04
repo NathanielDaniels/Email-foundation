@@ -28,5 +28,12 @@ img {
 
 .footer {
   background: black;
-  color: white;
+  .footer-container {
+    background: blueviolet;
+    .columns {
+      a {
+        color: red;
+      }
+    }
+  }
 }
