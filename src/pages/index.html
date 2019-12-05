@@ -1,12 +1,14 @@
 ---
-layout: index-layout
-subject: My Email Templates
+<!-- layout: index-layout -->
+layout: promotional
+subject: 40% this Holiday!
+percentage: 40
 ---
 
 <container>
   <row class="collapse header">
     <columns small="3" large="5" class="collapse">
-      <h1 class="text-center">Home</h1>
+      <h1 class="text-center">{{subject}}</h1>
     </columns>
   </row>
   <row class="collapse menu">
@@ -42,10 +44,10 @@ subject: My Email Templates
   <spacer size="50"></spacer>
   <row>
     <columns small="3" large="1" class="small-offset-6">
-      <h4>Shop</h4>
+      <h4>Shop for {{ percentage }}% Off</h4>
       <spacer size="20"></spacer>
       <h4>Img</h4>
-      <button href="#" class="large" >Button</button>
+      <button href="#" class="large">Button</button>
     </columns>
   </row>
 
@@ -59,7 +61,7 @@ subject: My Email Templates
       </callout>
     </columns>
   </row>
-  
+
   <callout class="primary">
     <row>
       <columns small="12">
@@ -67,27 +69,4 @@ subject: My Email Templates
       </columns>
     </row>
   </callout>
-  
 </container>
-
-
-
-<wrapper class="footer">
-  <container class="footer-container"  >
-    <row >
-      <columns></columns>
-      <columns small="8" large="8" class="center" align="center" valign="middle">
-        <center>
-          <menu class="vertical">
-            <item><a href="#">Link</a></item>
-            <item><a href="#">Link</a></item>
-            <item><a href="#">Link</a></item>
-            <item><a href="#">Link</a></item>
-          </menu>
-          
-        </center>
-      </columns>
-      <columns></columns>
-    </row>
-  </container>
-</wrapper>
